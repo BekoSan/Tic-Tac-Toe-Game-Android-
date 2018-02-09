@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res" >
+            <file
+                name="ic_launcher"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_main"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\layout\fragment_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >Tic Tac Toe
+                </string>
+                <string name="title_activity_winer_dialog" >WinerDialog
+                </string>
+            </file>
+            <file
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\values-w820dp\dimens.xml"
+                qualifiers="w820dp" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                name="friend"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-mdpi\friend.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="drow"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-mdpi\drow.ico"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="pc1"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-mdpi\pc1.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="drow1"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-mdpi\drow1.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="xwins"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-mdpi\xwins.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="owins"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-mdpi\owins.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="grin"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-mdpi\grin.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="slow"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-mdpi\slow.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="student"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-mdpi\student.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="tictactoe_banner"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-mdpi\tictactoe_banner.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="tictactoe_ico"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\drawable-mdpi\tictactoe_ico.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="winner_dialog"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\layout\winner_dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="winer_dialog"
+                path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\main\res\menu\winer_dialog.xml"
+                qualifiers=""
+                type="menu" />
+        </source>
+        <source path="E:\My Android Apps\TicTacToe\Tic Tac Toe\build\res\rs\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="E:\My Android Apps\TicTacToe\Tic Tac Toe\src\debug\res" />
+    </dataSet>
+
+</merger>

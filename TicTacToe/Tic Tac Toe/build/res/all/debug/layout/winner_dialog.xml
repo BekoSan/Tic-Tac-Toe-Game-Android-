@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bekosansoftwares.tictactoe.WinnerDialog">
+
+
+    <ImageView
+        android:id="@+id/winnertype"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="center"
+        android:src="@drawable/drow1"/>
+    <Button
+        android:id="@+id/acceptbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        />
+
+</LinearLayout><!-- From: file:/E:/My%20Android%20Apps/TicTacToe/Tic%20Tac%20Toe/src/main/res/layout/winner_dialog.xml -->

@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.bekosansoftwares.tictactoe.MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:id="@+id/mainbox"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+<ImageView
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:scaleType="fitXY"
+    android:src="@drawable/tictactoe_banner"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:text=""/>
+        <Button
+            android:id="@+id/btn1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:text=""/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:text=""/>
+
+        </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text=""/>
+            <Button
+                android:id="@+id/btn4"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text=""/>
+            <Button
+                android:id="@+id/btn5"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text=""/>
+
+        </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text=""/>
+            <Button
+                android:id="@+id/btn7"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text=""/>
+            <Button
+                android:id="@+id/btn8"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text=""/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvTurn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x turn"
+            android:textSize="27sp"
+            android:layout_centerVertical="true"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            />
+
+       <RelativeLayout
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           >
+           <ImageView
+               android:id="@+id/bekologo"
+               android:layout_alignParentRight="true"
+               android:layout_width="32dp"
+               android:layout_height="32dp"
+               android:scaleType="centerCrop"
+               android:src="@drawable/student"/>
+           <TextView
+               android:layout_centerVertical="true"
+               android:layout_toLeftOf="@id/bekologo"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="By Beko San"
+               android:textSize="16sp"
+               android:textColor="@android:color/white"
+               />
+
+           </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
